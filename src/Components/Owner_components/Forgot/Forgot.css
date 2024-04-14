@@ -1,0 +1,52 @@
+
+
+.ownerforgotdiv{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+   background-color: aliceblue;
+}
+
+.tittle{
+    font-size: calc(13px + 1vw);
+    font-weight: bold;
+    color: rgb(2, 89, 2);
+    margin-bottom: calc(10px + 1vw);
+}
+.ownerforgotform{
+    box-shadow: 0 0 calc(5px + 1vw) grey;
+    border-radius: calc(5px + 1vw);
+    display: flex;
+    flex-direction: column;
+    gap: calc(1px + 1vw);
+    align-items: center;
+    margin: 10px;
+    padding: calc(10px + 1vw);
+  background-color: rgb(230, 240, 248);
+}
+
+.ownerforgotform>:nth-child(1),.ownerforgotform>:nth-child(2){
+
+    width: calc(260px + 20vw);
+    background-color: aliceblue;
+}
+
+.ownerforgotform>:nth-child(3){
+    margin-top: calc(10px + 0.5vw);
+    width: calc(100px + 20vw);
+}
+
+.links{
+    width: 100%;
+    margin-top: calc(5px + 1vw);
+    font-size: calc(10px + 0.5vw);
+    display: flex;
+}
+
+.links>:nth-child(1){
+    flex: 1;
+}

@@ -1,0 +1,7 @@
+.customersDiv{
+    /* border: 1px solid black; */
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 20vh;
+}

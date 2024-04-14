@@ -1,0 +1,93 @@
+.customerFoodToken{
+    /* border: 1px solid black; */
+    height: 87.5vh;
+    width: calc(150px + 5vw);
+    padding: calc(10px + 1vw);
+      font-size: calc(10px + 0.1vw);
+    position: fixed;
+    right: 0;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: calc(5px + 0.5vw);
+    font-weight: bold;
+    background-color: rgb(8, 119, 204);
+    color: aliceblue;
+}
+
+.tokenTittle{
+    /* border: 1px solid black; */
+    font-weight: bolder;
+    font-size: calc(13px + 1.5vw);
+    margin-bottom: calc(5px + 2vw);
+   background: linear-gradient(to bottom,rgb(252, 5, 34) 40%,rgb(38, 38, 38));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+    text-align: center;
+}
+
+.tokenDiv{
+    /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: calc(5px + 1vw);
+}
+
+.tokenCart{
+    /* border: 1px solid black; */
+    padding: calc(3px + 0.1vw) calc(3px + 0.1vw) 0 calc(3px + 0.1vw);
+
+
+}
+.tokenCart>:nth-child(2){
+    padding: calc(3px + 0.1vw);
+}
+
+.tokenCart>:nth-child(2)>:nth-child(1){
+    /* border: 1px solid black; */
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+      font-size: calc(10px + 0.1vw);
+    gap: 3px;
+}
+
+
+.tokenCart>:nth-child(2)>:nth-child(2){
+    /* border: 1px solid black; */
+      font-size: calc(10px + 0.1vw);
+    display: flex;
+    gap: 3px;
+    font-weight: bold;
+}
+.tokenCart>:nth-child(2)>:nth-child(3){
+    /* border: 1px solid black; */
+    font-size: calc(10px + 0.1vw);
+
+}
+
+.tokenCart>:nth-child(2)>:nth-child(4){
+    /* border: 1px solid black; */
+      font-size: calc(10px + 0.1vw);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    font-weight: bold;
+    color: green;
+}
+.tokenCart>:nth-child(2)>:nth-child(4)>:nth-child(2){
+    font-size: calc(9px + 0.1vw);
+}
+
+.tokenCart>:nth-child(2)>:nth-child(5){
+
+    text-align: center;
+
+}
+
+.loading{
+    display: flex;
+    align-items: center;
+    padding-top: calc(30px + 5vw);
+}

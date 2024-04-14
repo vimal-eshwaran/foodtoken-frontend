@@ -1,0 +1,17 @@
+.addfood{
+    /* border: 1px solid black; */
+    width: calc(150px + 20vw);
+    display: flex;
+    flex-direction: column;
+    gap: calc(5px + 1vw);
+    padding: calc(10px + 1vw);
+    box-shadow: 0 0 calc(5px + 1vw) grey;
+    border-radius: calc(5px + 1vw);
+}
+
+.fooddiv{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    padding-top: calc(50px + 2vw);
+}

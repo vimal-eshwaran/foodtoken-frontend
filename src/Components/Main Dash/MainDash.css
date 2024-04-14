@@ -1,0 +1,79 @@
+
+.maindash{
+    border: 1px solid black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+    
+}
+
+.companyName{
+    font-weight: bolder;
+    font-size: calc(18px + 2vw);
+    margin-top: calc(35px + 2vw);
+    margin-bottom: calc(35px + 2vw);
+    background: linear-gradient(to bottom,rgb(223, 4, 4) 20%,rgb(85, 18, 18));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+
+.logindiv{
+    /* border :1px solid black; */
+    display: flex;
+    
+    width: calc(150px + 50vw);
+    gap: calc(4px + 1vw);
+}
+
+.customerdiv{
+    /* border :1px solid black; */
+    padding: calc(10px + 1vw);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: calc(5px + 1vw);
+    border-radius: calc(10px + 1vw);
+    box-shadow: 0 0 calc(10px + 1vw) grey;
+}
+
+.customerdiv>:nth-child(1){
+    font-weight: bolder;
+    font-size: calc(13px + 1.5vw);
+    margin-bottom: calc(5px + 2vw);
+    background: linear-gradient(to bottom,rgb(2, 176, 28) 20%,rgb(0, 11, 1));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+
+.ownerdiv{
+    /* border :1px solid black; */
+    padding: calc(10px + 0.5vw);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: calc(5px + 1vw);
+    border-radius: calc(10px + 1vw);
+    box-shadow: 0 0 calc(10px + 1vw) grey;
+}
+
+.ownerdiv>:nth-child(1){
+    font-weight: bolder;
+    font-size: calc(13px + 1.5vw);
+    margin-bottom: calc(5px + 2vw);
+    background: linear-gradient(to bottom,rgb(2, 176, 28) 20%,rgb(0, 11, 1));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+
+.ownerdiv>:nth-child(2),.customerdiv>:nth-child(2),.customerdiv>:nth-child(3){
+
+  width: calc( 80px + 15vw);
+  font-size: calc(10px + 0.2vw);
+}

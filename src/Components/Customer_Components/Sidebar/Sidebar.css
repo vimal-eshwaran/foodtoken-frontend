@@ -1,0 +1,85 @@
+
+.customersidebarMainDiv{
+    height: 87.5vh;
+    width: calc(80px + 5vw);
+    padding: calc(10px + 1vw);
+    position: fixed;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: calc(10px + 1vw);
+    font-weight: bold;
+    background-color: rgb(8, 119, 204);
+    color: aliceblue;
+}
+
+.customername{
+    font-size: calc(10px + 0.5vw);
+    text-align: center;
+    font-weight: bolder;
+}
+
+.customername>span{
+    font-weight: bolder;
+    font-size: calc(17px + 1.5vw);
+    margin-bottom: calc(5px + 2vw);
+   background: linear-gradient(to bottom,rgb(252, 5, 34) 40%,rgb(38, 38, 38));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+
+.foodDiv{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foodTittle{
+    font-weight: bolder;
+    font-size: calc(10px + 0.5vw);
+    margin-bottom: calc(1px + 1vw);
+    background: linear-gradient(to bottom,rgb(255, 253, 255) 20%,rgb(250, 127, 127));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+    width: 100%;
+}
+
+.categories{
+
+    display: flex;
+    flex-direction: column;
+  padding: calc(4px + 1vw);
+  gap: calc(40px + 2vw);
+
+}
+
+.categories>:nth-child(1){
+
+
+    display: flex;
+    flex-direction: column;
+    gap: calc(10px + 2vw);
+    font-size: calc(10px + 0.2vw);
+}
+li:hover{
+cursor: pointer;
+color: black;
+transform: scale(1.1);
+transition: all 300ms;
+font-weight: bolder;
+}
+
+.categories>:nth-child(2){
+
+    font-size: calc(8px + 0.3vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    color: black;
+   font-weight: bolder;
+   cursor: default;
+}

@@ -1,0 +1,44 @@
+.foodDiv{
+    padding-top: 50px;
+}
+
+.foodHeading{
+    font-weight: bolder;
+    font-size: calc(13px + 1vw);
+    margin-bottom: calc(5px + 2vw);
+   background: linear-gradient(to bottom,rgb(252, 5, 34) 40%,rgb(38, 38, 38));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+
+.foods{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: calc(10px + 1vw);
+}
+
+.foodCart{
+    width: calc(70px + 10vw);
+}
+
+.foodCart>:nth-child(2)>:nth-child(1){
+    /* border: 1px solid black; */
+    font-size: calc(8px + 0.7vw);
+    text-transform: capitalize;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.foodCart>:nth-child(2)>:nth-child(2){
+    /* border: 1px solid black; */
+    font-size: calc(8px + 0.7vw);
+    text-align: center;
+}
+.foodCart>:nth-child(2)>:nth-child(3){
+    /* border: 1px solid black; */
+    text-align: center;
+}

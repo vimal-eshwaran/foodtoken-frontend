@@ -1,0 +1,84 @@
+.customerCart {
+    height: 87.5vh;
+    width: calc(150px + 5vw);
+    padding: calc(10px + 1vw);
+    font-size: calc(10px + 0.5vw);
+    position: fixed;
+    right: 0;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: calc(5px + 0.5vw);
+    font-weight: bold;
+    background-color: rgb(8, 119, 204);
+    color: aliceblue;
+}
+
+
+.addtocartTittle {
+    /* border: 1px solid black; */
+    font-weight: bolder;
+    font-size: calc(13px + 0.1vw);
+    margin-bottom: calc(5px + 2vw);
+    background: linear-gradient(to bottom, rgb(252, 5, 34) 40%, rgb(38, 38, 38));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+    text-align: center;
+}
+
+.addtocartDiv {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: calc(5px + 1vw);
+    height: max-content;
+}
+
+.addtocart {
+    /* border: 1px solid black; */
+    padding: calc(3px + 0.1vw) calc(3px + 0.1vw) 0 calc(3px + 0.1vw);
+}
+
+.addtocart>:nth-child(2)>:nth-child(1) {
+    /* border: 1px solid black; */
+    font-weight: bold;
+    text-align: center;
+    font-size: calc(10px + 0.5vw);
+    text-transform: capitalize;
+}
+
+.addtocart>:nth-child(2)>:nth-child(2) {
+
+    font-size: calc(10px + 0.4vw);
+    font-weight: 600;
+    display: flex;
+    gap: calc(4px + 0.1vw);
+    align-items: center;
+    cursor: default;
+    justify-content: space-evenly;
+
+}
+
+
+
+.addtocart>:nth-child(2)>:nth-child(3) {
+    /* border: 1px solid black; */
+    font-weight: 600;
+    font-size: calc(10px + 0.3vw);
+    cursor: default;
+    text-align: center;
+}
+
+.addtocart>:nth-child(2)>:nth-child(4) {
+    margin-top: calc(5px + 1vw);
+    display: flex;
+    justify-content: center;
+    gap: calc(5px + 1vw);
+}
+
+.loading{
+    display: flex;
+    align-items: center;
+    padding-top: calc(30px + 5vw);
+}
